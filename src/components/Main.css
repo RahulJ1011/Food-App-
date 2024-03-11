@@ -1,0 +1,52 @@
+.containers {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+ 
+  box-shadow: 0px 2px 5px 12px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: 0px 2px 5px 12px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0px 2px 5px 12px rgba(0, 0, 0, 0.42);
+  width: 400px;
+  
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.img {
+  height: 250px;
+  width: 100%;
+}
+
+img {
+  margin-bottom: 10px;
+}
+
+span {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.link {
+  margin-top: 10px;
+  margin-bottom: 2px;
+  cursor: pointer;
+
+}
+.link:hover
+{
+  text-decoration: underline;
+  color: rgb(223, 223, 106);
+  transform: linear ;
+}
+.btn
+{
+  width: 150px;
+  border-radius: 6px;
+  margin-top: 16px;
+  margin-bottom: 6px;
+  height: 60px;
+  color: white;
+  border: transparent;
+  background-color: rgb(184, 80, 80);
+}

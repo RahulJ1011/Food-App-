@@ -1,0 +1,44 @@
+nav
+{
+  width: 100vw;
+  box-shadow: -4px 2px 53px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -4px 2px 53px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px 2px 53px 0px rgba(0,0,0,0.75);
+padding: 30px;
+display: flex;
+width: 100vw;
+justify-content: space-between;
+position: sticky;
+}
+.logo
+{
+  padding: 25px;
+  font-weight: 500;
+  font-size: 25px;
+}
+ul
+{
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+}
+li
+{
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+.link
+{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+input
+{
+  width: 260px;
+  height: 30px;
+  border-radius: 5px;
+  border: solid 2px grey;
+}
